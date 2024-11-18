@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.lightBlue[50], // Light blue background
+        scaffoldBackgroundColor: Colors.lightBlue[50],
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.lightBlue, // Light blue AppBar
+          backgroundColor: Colors.lightBlue,
         ),
       ),
       initialRoute: '/',
